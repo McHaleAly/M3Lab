@@ -6,19 +6,17 @@ class SuperHuman {
 }
 
 // Define SuperHero and SuperVillain classes here
-class SuperHero extends SuperHuman{
+class SuperHero extends SuperHuman {  
     contractor(name,alias,powerLevel);
       Super(name,powerLevel);
         this.alias = alias;
 }
 
-battle(SuperVillian) {
-    if( SuperHero powerLevel >= SuperVillian);
-        return true
-    else{
-        return false;
+battle(SuperVillian) ;{
+    if( 'SuperHero powerLevel' >= 'SuperVillian');
+            return false;
     };
-}
+
 
 class SuperVillain extends SuperHuman{
     contractor(name,alias,powerLevel);
@@ -64,4 +62,7 @@ function selectionChanged() {
 	const selectedVillain = villains[selectedVillainValue];
 
 	// Your code goes here
+selectionChanged.prototype.alias =battle()
+	console.log(alias)
+
 }
