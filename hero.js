@@ -6,8 +6,30 @@ class SuperHuman {
 }
 
 // Define SuperHero and SuperVillain classes here
+class SuperHero extends SuperHuman{
+    contractor(name,alias,powerLevel);
+      Super(name,powerLevel);
+        this.alias = alias;
+}
 
+battle(SuperVillian) {
+    if( SuperHero powerLevel >= SuperVillian);
+        return true
+    else{
+        return false;
+    };
+}
 
+class SuperVillain extends SuperHuman{
+    contractor(name,alias,powerLevel);
+      Super(name,powerLevel);
+        this.alias = alias;
+ 
+};
+    this.getEvilChuckle();{
+    
+};
+        return "Ha ha ha!"
 
 const heroes = {
 	"Super Bacon": new SuperHero("Jack Oinker", "Super Bacon", 2),
@@ -42,5 +64,4 @@ function selectionChanged() {
 	const selectedVillain = villains[selectedVillainValue];
 
 	// Your code goes here
-
 }
